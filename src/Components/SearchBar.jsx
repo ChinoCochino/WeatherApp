@@ -1,12 +1,14 @@
 import React from "react";
 
+import "./SearchBar.css";
+
 const Form = () => {
   return (
     <div className="container h-100">
       <form>
         <div></div>
         <div className="row">
-          <div className="col-md-3 offset-md-2">
+          <div className="boxes col-md-3 offset-md-2 rgba-blue-strong">
             <input
               type="text"
               className="form-control"
