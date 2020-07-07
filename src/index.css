@@ -11,10 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.App {
-  background-image: url("./Assets/Sunny.png");
-  background-size: cover;
-  background-position: bottom;
-  transition: 0.4 ease-out;
-}
