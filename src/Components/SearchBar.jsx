@@ -5,7 +5,7 @@ const Form = () => {
     <div className="container h-100">
       <form>
         <div></div>
-        <div className="row">
+        <div className="row mt-4">
           <div className="col-md-3 offset-md-2">
             <input
               type="text"
