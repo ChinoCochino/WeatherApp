@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 class CitiesOutput extends Component {
-    state = {  }
-    render() { 
-        return ( 
-            <div>Raleigh</div>
-         );
-    }
+  state = {};
+  render() {
+    return <div className="offset-md-5">Raleigh</div>;
+  }
 }
- 
+
 export default CitiesOutput;
-
-
