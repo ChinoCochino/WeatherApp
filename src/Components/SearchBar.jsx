@@ -1,12 +1,14 @@
 import React from "react";
 
+import "./SearchBar.css";
+
 const Form = () => {
   return (
-    <div className="container h-100">
+    <div className="container">
       <form>
         <div></div>
-        <div className="row mt-4">
-          <div className="col-md-3 offset-md-2">
+        <div className="box">
+          <div className="">
             <input
               type="text"
               className="form-control"
@@ -14,7 +16,7 @@ const Form = () => {
               name="city"
             />
           </div>
-          <div className="col-md-3">
+          <div className="">
             <input
               type="text"
               className="form-control"
@@ -22,7 +24,7 @@ const Form = () => {
               name="country"
             />
           </div>
-          <div className="col-md-3 mt-md-0 mt-2 text-md-left ">
+          <div className="">
             <button className="btn btn-info">Get Weather</button>
           </div>
         </div>
